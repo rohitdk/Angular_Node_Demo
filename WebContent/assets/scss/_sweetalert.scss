@@ -1,0 +1,40 @@
+/* =========== */
+/* Sweet Alert */
+/* =========== */
+
+.sweet-alert {
+  padding: 30px 25px;
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  p:last-of-type {
+    margin-bottom: 0px !important;
+  }
+  .icon.success  {
+    .placeholder {
+      border: 4px solid rgba($brand-success,0.3);
+    }
+    .line {
+      background-color: $brand-success;
+    }
+  }
+
+  .icon.error  {
+    border-color: $brand-danger;
+
+    .line {
+      background-color: $brand-danger;
+    }
+  }
+
+  .icon.warning {
+    border-color: $brand-warning;
+  }
+  .icon.info {
+    border-color: $brand-info;
+  }
+  .btn-warning:focus,.btn-info:focus,.btn-success:focus,.btn-danger:focus,.btn-default:focus {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,267 @@
+
+
+.btn-custom{
+        
+    color: #fff;
+    background-color: #080808 !important;//#6a6e71;
+    border-color: #080808 !important;//#6a6e71;
+}
+
+.btn-custom:hover{
+        
+    color: #fff;
+    background-color: #080808;//#6a6e71;
+    border-color: #080808 !important;//#6a6e71;
+}
+
+.card-box{
+   border-color: #080808 !important;//#080808
+}
+
+a{
+    color: #080808 ;
+}
+
+
+
+#topnav .topbar-main {
+    background-color:#080808;
+}
+#topnav .navigation-menu > li:hover a {
+    color: #080808;
+}
+#topnav .navigation-menu > li:hover a {
+    color: #080808 !important;//#64b0f2;
+}
+#topnav .navigation-menu > li > a:hover {
+    color: #080808 !important;//#64b0f2;
+}
+#topnav .navigation-menu > li.active > a {
+    color: #080808 !important;//#6a6e71;
+}
+
+.mr10{
+    margin-right: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr5{
+    margin-right: 5px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mt5{
+    margin-top: 5px;
+}
+.mt5{
+    margin-top: 5px;
+}
+.ml10{
+    margin-left: 10px;
+}
+
+tr .card-box {
+    padding: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    background-clip: padding-box;
+    margin-bottom: 0px !important;
+    background-color: #ffffff;
+    box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+}
+
+td .card-box .form-group .form-control-label{
+    width: auto;
+   font-size: 11px;
+cursor:pointer
+}
+td .card-box .form-group{
+    background-color: #9292a2;//#727282;
+    color: #fff;
+}
+/* .modal-dialog {
+  width: 100%;
+  height: 100%;
+      
+  margin: 0;
+    
+ padding: 20px;
+} */
+
+.app-modal-window .modal-dialog {
+  width: 100% !important;
+}
+.modal-dialog-change-password{
+	width: 50%;
+  height: auto;
+      
+  margin: 0;
+    
+  padding: 20px;
+}
+.modal-content {
+  height: auto;
+  /* min-height: 100%; */
+  border-radius: 0;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+    color: #fff;
+    background: #080808;
+}
+
+/*
+Show editor option in horizontal line
+*/
+btn-sm, .btn-group-sm > .btn {
+    padding: 0.25rem 0.75rem;
+     font-size: 1rem !important; 
+}
+
+.btn-block {
+    display: block;
+    width: 80% !important;
+}
+
+.form-control
+{
+ width: 80% !important;
+}
+
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover, .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover {
+    color: #55595c;
+    background-color: #fff !important;
+    border-color: #ddd #ddd transparent;
+}
+
+.checkbox-custom input[type="checkbox"]:checked + label::before {
+    background-color: #080808;
+    border-color: #080808;
+}    
+    /*To display date and time picker white and not gray*/
+td .btn-default,th .btn-default{
+ background-color:white;
+}
+/*To hide label in date and time picker*/
+tr td em{
+ display:none !important;
+}
+}
+
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.pagination > li > a, .pagination > li > span {
+    color: #636e7b;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left !important;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #fff;
+   
+    text-decoration: none;
+    background-color: #bfbcbc;//#ddd;//#fff;
+    border: 1px solid #fff;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #080808;
+    border-color: #080808;
+}
+
+#topnav .navigation-menu > li:hover a i {
+    color: #080808 !important;
+}
+
+.user_name{
+	font-size:medium;
+	color: #bfd730;
+}
+.activemenu{
+	background-color: #F5F5F5 !important;
+}
+@media (min-width: 992px)
+#topnav .navigation-menu > li:hover a i {
+    color: #080808!important;
+}
+
+.wsn{
+white-space:normal !important;
+word-break: break-all;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown-menu>li>a:hover {
+   background-color: #e5e5e5;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.cursor-pointer{
+	cursor:pointer;
+}
+
+ .tablerow:hover{
+	background-color:#818a91 !important;
+	color:#fff !important;
+} 
+th{
+	background-color:#080808 !important;
+	color:#fff !important;
+}
+
+.table-responsive {
+    display: table;
+    width: 100%;
+    min-height: 0.01%;
+    overflow-x: auto;
+}
+.break-word{
+word-break: break-all !important;	
+}
+
+.radio-custom input[type="radio"]:checked + label::before {
+    background-color: #080808;
+    border-color: #080808;
+}  
+.radio-custom input[type="radio"]:checked + label::after {
+    background-color: #080808;
+    border-color: #080808;
+}
+.wrapper-page .logo {
+    float: none !important;
+    line-height: 36px;
+    font-size: 24px;
+    color: #080808 !important;
+.errorMsg{
+	color : red;
+}
+/* custom color */
+.header-color{
+	background-color:#001231;
+}

@@ -1,0 +1,138 @@
+<!-- Navigation Bar-->
+<header id="topnav" data-ng-controller="mainCtrl">
+	<div class="topbar-main" style="background-color:#001231">
+		<div class="container">
+
+			<!-- LOGO -->
+			<div class="topbar-left">
+				<a href="#dashboard" class="logo"> UNISPACE<!-- <img
+					src="assets/images/logo/mmr_white_logo.png" height="25px"> -->
+				</a>
+			</div>
+
+			<!-- End Logo container-->
+
+
+			<div class="menu-extras">
+
+				<ul class="nav navbar-nav pull-right">
+
+					<li class="nav-item">
+						<!-- Mobile menu toggle--> <a class="navbar-toggle">
+							<div class="lines">
+								<span></span> <span></span> <span></span>
+							</div>
+					</a> <!-- End mobile menu toggle-->
+					</li>
+
+
+
+
+
+
+					<li class="nav-item dropdown notification-list"><a
+						class="nav-link dropdown-toggle arrow-none waves-effect waves-light nav-user"
+						data-toggle="dropdown" href role="button" aria-haspopup="false"
+						aria-expanded="false"> <img src="assets/images/logo/user1.png"
+							alt="user" class="img-circle">
+					</a>
+						<div
+							class="dropdown-menu dropdown-menu-right dropdown-arrow profile-dropdown "
+							aria-labelledby="Preview">
+							<!-- item-->
+							<div class="dropdown-item noti-title">
+								<h5 class="text-overflow">
+									<small>Welcome ! {{adminName}}</small>
+								</h5>
+							</div>
+
+							<!-- item-->
+							<a href="javascript:void(0);" class="dropdown-item notify-item">
+								<i class="zmdi zmdi-account-circle"></i> <span>Profile</span>
+							</a>
+
+							<!-- item-->
+							<a href data-ng-click="openChangePasswordPopUp('sm')"
+								class="dropdown-item notify-item"> <i
+								class="zmdi zmdi-settings"></i> <span>Change Password</span>
+							</a>
+
+							<!-- item-->
+							<a href="javascript:void(0);" class="dropdown-item notify-item">
+								<i class="zmdi zmdi-lock-open"></i> <span>Lock Screen</span>
+							</a>
+
+							<!-- item-->
+							<a href data-ng-click="openLogOut()"
+								class="dropdown-item notify-item"> <i
+								class="zmdi zmdi-power"></i> <span>Logout</span>
+							</a>
+
+						</div></li>
+
+				</ul>
+
+			</div>
+			<div class="pull-right noti-title">
+				<h5 class="text-overflow" style="margin-top: 20px;">
+					<label class="user_name">Welcome ! David {{adminName}}</label>
+				</h5>
+			</div>
+			<!-- end menu-extras -->
+			<div class="clearfix"></div>
+
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end topbar-main -->
+
+
+	<div class="navbar-custom">
+		<div class="container">
+			<div id="navigation">
+				<!-- Navigation Menu-->
+				<ul class="navigation-menu">
+					<li ng-click="isActiveMenu('dashboard');"
+						ng-class="{ activemenu: isActive=='dashboard'}"><a
+						href="#dashboard"><i class="icon-grid"></i> <span>
+								Dashboard </span> </a></li>
+
+
+					<li ng-click="isActiveMenu('rewards');"
+						ng-class="{ activemenu: isActive=='rewards'}"><a
+						href="#reward"><i class="ion-ribbon-a zmdi-album"></i> <span>
+								Rewards </span> </a></li>
+					
+					<li class="has-submenu "
+						ng-class="{ activemenu: isActive=='reports'}"><a href=""><i
+							class="ion-ios7-briefcase-outline zmdi-format-underlined"></i> <span>
+								Reports </span> </a>
+						<ul class="submenu megamenu">
+							<li>
+								<ul>
+									<li><a href="#report" ng-click="isActiveMenu('projects');">Time
+											Report(Individual)</a></li>
+									<li><a href="#reportTime"
+										ng-click="isActiveMenu('reports');">Time Report(Group)</a></li>
+									<li><a href="#liveReport"
+										ng-click="isActiveMenu('reports');">Live Report</a></li>
+										<li><a href="#workspaceReport"
+										ng-click="isActiveMenu('reports');">Workspace Report</a></li>
+									<li><a href="#surveyReport"
+										ng-click="isActiveMenu('reports');">Survey Report</a></li>
+
+								</ul>
+							</li>
+
+						</ul></li>
+
+
+
+
+				</ul>
+				<!-- End navigation menu  -->
+			</div>
+		</div>
+	</div>
+
+</header>

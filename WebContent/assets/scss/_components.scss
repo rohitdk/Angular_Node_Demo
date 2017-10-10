@@ -1,0 +1,98 @@
+
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+/* Carousel */
+.carousel-control {
+  width: 10%;
+  span{
+    position: absolute;
+    top: 50%; /* pushes the icon in the middle of the height */
+    z-index: 5;
+    display: inline-block;
+    font-size: 30px;
+  }
+}
+.carousel-indicators li {
+  border: 2px solid $white;
+}
+
+
+// Labels
+.label {
+  padding: .48em .8em 0.3em 0.8em;
+  letter-spacing: 0.04em;
+}
+
+.label-pink {
+  background-color: $pink;
+}
+
+.lable-purple {
+  background-color: $purple;
+}
+
+.label-dark {
+  background-color: $dark;
+}
+
+
+/* Pagination/ Pager */
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+   border-bottom-left-radius: 3px;
+   border-top-left-radius: 3px;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+   border-bottom-right-radius: 3px;
+   border-top-right-radius: 3px;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+   color: $dark;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+   background-color: #e4e7ea;
+}
+
+.pagination-split li {
+   margin-left: 5px;
+   display: inline-block;
+   float: left;
+}
+
+.pagination-split li:first-child {
+   margin-left: 0;
+}
+
+.pagination-split li a {
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+   background-color: $custom;
+   border-color: $custom;
+}
+
+.pager li > a, .pager li > span {
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   color: $dark;
+}

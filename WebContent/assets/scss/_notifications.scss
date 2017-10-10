@@ -1,0 +1,42 @@
+/* =============
+   Notification
+============= */
+#toast-container>div {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  opacity: 1;
+}
+#toast-container>:hover {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  opacity: 1;
+}
+
+.toast {
+  background-color: $custom;
+}
+.toast-success {
+  background-color: $brand-success;
+  border: 2px solid $brand-success;
+}
+.toast-error {
+  background-color: $brand-danger;
+  border: 2px solid $brand-danger;
+}
+
+.toast-info {
+  background-color: $brand-info;
+  border: 2px solid $brand-info;
+}
+
+.toast-warning {
+  background-color: $brand-warning;
+  border: 2px solid $brand-warning;
+}
+
+
+//Demo Only
+.alerts-demo {
+  background-color: $gray-lightest;
+  border: 1px solid $gray-lighter;
+  padding: 20px;
+}
+
